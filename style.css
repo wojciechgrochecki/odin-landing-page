@@ -231,9 +231,14 @@ footer {
         align-items: center;
         text-align: center;
         padding-top: 20px;
+        padding: 5% 10%;
     }
 
     .call-to-action-wrap h3 {
         margin-bottom: 10px;
+    }
+
+    .hero-image {
+        width: 400px;
     }
 }
