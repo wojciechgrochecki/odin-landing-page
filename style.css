@@ -103,6 +103,10 @@ h1 {
     height: fit-content;
 }
 
+.hero-link:hover {
+    background-color: #2a6bd3;
+}
+
 .card-section {
     background-color: #F9FAF8;
     padding: 40px 18vw 80px;
@@ -175,6 +179,7 @@ h1 {
     padding: 50px 100px;
     align-items: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .call-to-action-wrap h3 {
@@ -195,4 +200,14 @@ h1 {
     color: #E5E7Eb;
     font-weight: bold;
     border: 2px solid #E5E7Eb;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7Eb;
 }
