@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
 
 * {
     margin: 0;
@@ -138,4 +139,24 @@ h1 {
     text-align: center;
     font-size: 18px;
     color: #353637;
+}
+
+.quote-section {
+    background-color: #E5E7Eb;
+    padding: 100px 25vw 80px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: end;
 }
